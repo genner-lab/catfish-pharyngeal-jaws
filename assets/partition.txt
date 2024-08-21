@@ -1,0 +1,5 @@
+GTR+F+I+G4, cox1 = 1-807
+GTR+F+I+G4, cytb = 808-1897
+TIM2+F+I+G4, rag1 = 1898-2986
+TVMef+I+G4, rag2 = 2987-3925
+GTR+F+I+G4, rtn4 = 3926-6337
