@@ -5,7 +5,7 @@ library(tidytree)
 library(phytools)
 library(ggtreeExtra)
 library(treeio)
-setwd("C:/Users/sl22263/OneDrive - University of Bristol/Documents/Data to be landmarked/phylogeny")
+
 tree <- read.tree("bootstrapped.raxml.support")
 ggplot(tree) + geom_tree() + theme_tree() + geom_nodelab(aes(label=node))
 ggtree(tree)
