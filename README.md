@@ -9,10 +9,15 @@ Data and code for Bentley et al. "Evolutionary innovation of functional cichlid-
 **Assets**
 
 ***
+File: Rhinelepinae1.txt - Constraint for the subfamily, Rhinelepinae.
 
-File: name.xxx Description
+File: partition.txt - Partition document for each gene.
 
-File: name.xxx Description
+File: bootstrapped.raxml.support - Phylogeny 
+
+File: Species.csv - Species list for correcting names.
+
+File: pharyngealjawtypenodiet.csv - Classifications of jaw type to attach to the phylogeny visualisation.
 
 ***
 
@@ -20,6 +25,6 @@ File: name.xxx Description
 
 ***
 
-File: name.xxx Description
+File: Phylogeny code.R - Code for visualising the phylogeny in R. 
 
-File: name.xxx Description
+File: NCBI Supermatrix code - Code to be run in Ubuntu terminal to produce the phylogeny.
