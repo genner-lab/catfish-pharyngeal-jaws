@@ -1,0 +1,39 @@
+# clone the repository 
+git clone https://github.com/boopsboops/ncbi-supermatrix.git
+cd ncbi-supermatrix
+# install the R packages (... takes a LONG time ...)
+Rscript -e "renv::restore()"
+#extracting sequences
+scripts/download-sequences.R -c Loricariidae -n 500 -x 2500 -b 30 -a false -d false
+
+#outgroup
+scripts/download-sequences.R -c Astroblepidae -n 500 -x 2500 -b 30 -a true -d false
+
+#Cleaning and clustering sequences
+scripts/clean-and-cluster.R -n 10 -c 0.6 -m 2
+
+#Choosing reliable genes/regions
+scripts/pick-clusters.R -c 37,23,15,35,0 -g cox1,cytb,rag1,rag2,rtn4
+
+#Attaching scientific names
+scripts/annotate-ncbi.R -t 1 -c fishbase
+
+#removing excessively long names and combining 
+scripts/filter-species.R -n 3
+
+#fixing the path
+echo 'export PATH=~/ncbi-supermatrix/trimal/source:$PATH' >> ~/.bashrc
+source ~/.bashrc
+
+#Aligning and concatonating
+scripts/align-trim-concatenate.R -p 0.2 -t 4
+
+echo 'export PATH=~/ncbi-supermatrix/trimal:$PATH' >> ~/.bashrc
+
+#partition
+raxml-ng/bin/raxml-ng --all --tree-constraint Rhinelepinae1.txt --bs-trees 1000 --tree pars{10} --threads auto --redo --msa concatenated.aligned.trimmed.fasta --model partition.txt
+
+#attaching bootstraps
+raxml-ng/bin/raxml-ng --support --tree concatenated.aligned.trimmed.fasta.raxml.bestTree --bs-trees concatenated.aligned.trimmed.fasta.raxml.bootstraps --prefix bootstrapped --threads 2
+
+
