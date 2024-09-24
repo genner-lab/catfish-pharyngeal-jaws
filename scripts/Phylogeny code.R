@@ -5,7 +5,44 @@ library(tidytree)
 library(phytools)
 library(ggtreeExtra)
 library(treeio)
+library(here)
+library(readr)
+library(dplyr)
 
+# read ml tree, bootstrap trees, species list
+tr <- ape::read.tree(here::here("assets/bootstrapped.raxml.support"))
+bs <- ape::read.tree(here::here("assets/concatenated.aligned.trimmed.fasta.raxml.bootstraps"))
+keep <- readr::read_csv(here::here("assets/Species.csv"),show_col_types=FALSE) |> dplyr::pull(Name)
+
+# tree pruning and rooting function
+tree_prune <- function(tr,tips,root) {
+  tr.d <- ape::keep.tip(tr,tips)
+  og <- grep(root,tr.d$tip.label,value=TRUE)
+  tr.r <- ape::root(tr.d,outgroup=og,resolve.root=TRUE)
+  return(tr.r)
+}
+
+# prune all bootstrap trees
+bs.sub.root <- lapply(bs,function(x) tree_prune(tr=x,tips=keep,root="Astroblepus"))
+
+# prune ml tree
+tr.sub.root <- tree_prune(tr=tr,tips=keep,root="Astroblepus")
+
+# recalculate bootstraps
+boot <- ape::prop.clades(tr.sub.root,bs.sub.root,rooted=TRUE)/10
+
+# transfer bootstraps to tree and remove root support
+tr.sub.root$node.label <- boot
+tr.sub.root$node.label[1] <- ""
+
+# write out
+ape::write.tree(tr.sub.root,here::here("assets/bootstrapped.raxml.support.recalc.nwk"))
+
+
+
+
+
+setwd("C:/Users/sl22263/OneDrive - University of Bristol/Documents/Data to be landmarked/phylogeny")
 tree <- read.tree("bootstrapped.raxml.support")
 ggplot(tree) + geom_tree() + theme_tree() + geom_nodelab(aes(label=node))
 ggtree(tree)
