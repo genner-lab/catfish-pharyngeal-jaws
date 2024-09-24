@@ -43,7 +43,7 @@ ape::write.tree(tr.sub.root,here::here("assets/bootstrapped.raxml.support.recalc
 
 
 setwd("C:/Users/sl22263/OneDrive - University of Bristol/Documents/Data to be landmarked/phylogeny")
-tree <- read.tree("bootstrapped.raxml.support")
+tree <- read.tree("bootstrapped.raxml.support.recalc.nwk")
 ggplot(tree) + geom_tree() + theme_tree() + geom_nodelab(aes(label=node))
 ggtree(tree)
 # create the basic plot
@@ -99,9 +99,10 @@ final <- rotated %<+% jaw + geom_tippoint(aes(colour = Jaw, label = NULL), posit
 plot(final)
 
 #basic tree 
-ggtree(namecorrected) + 
-  geom_nodelab(aes(label=label)) +
-  geom_tiplab(geom = "text", aes(fontface = "italic"), nudge_x=0.01)
+ggtree(namecorrected) +
+  geom_nodelab(aes(label=label, check_overlap = TRUE), nudge_x=0.008, size = 3.0) +
+  geom_tiplab(geom = "text", aes(fontface = "italic")) +
+  xlim(NA, 0.8) 
 
 
 
