@@ -2,7 +2,7 @@
 
 Loricariid pharyngeal jaws paper
 
-Data and code for Bentley et al. "Evolutionary innovation of functional cichlid-like fused pharyn-geal jaws in loricariid catfishes"
+Data and code for Bentley et al. "Evolutionary innovation of functional cichlid-like fused pharyngeal jaws in loricariid catfishes"
 
 ***
 
