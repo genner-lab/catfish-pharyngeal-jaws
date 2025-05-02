@@ -9,6 +9,8 @@ Data and code for Bentley et al. "Evolutionary innovation of functional cichlid-
 **Assets**
 
 ***
+File: specimens used.xlsx - Database of specimens used with CT parameters.
+
 File: Rhinelepinae1.txt - Constraint for the subfamily, Rhinelepinae.
 
 File: partition.txt - Partition document for each gene.
