@@ -120,7 +120,6 @@ final <- ggtree(namecorrected) + xlim(NA, 0.8)
 plot(final)
 #flip to Planiloriaria at top. 
 rotated <- flip(final, 85, 70)
-rotated1 <- rotated %<+% jaw
 plot(rotated)
 final <- ggtree(rotated) + geom_tiplab() +
   geom_point2(aes(colour = "black", label = label, size = 0.8, subset = !is.na(as.numeric(label)) & as.numeric(label) >70)) +
