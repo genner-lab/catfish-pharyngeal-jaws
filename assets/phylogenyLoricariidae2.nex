@@ -1,0 +1,141 @@
+#NEXUS
+[R-package APE, Tue Jun 25 14:16:10 2024]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 64;
+	TAXLABELS
+		Pseudorinelepis genibarbis
+		Rhinelepis strigosa
+		Harttia loricariformis
+		Cteniloricaria platystoma
+		Loricaria cataphracta
+		Crossoloricaria variegata
+		Planiloricaria cryptodon
+		Pseudohemiodon apithanos
+		Spatuloricaria evansii
+		Loricariichthys maculatus
+		Hemiodontichthys acipenserinus
+		Pseudoloricaria laeviuscula
+		Limatulichthys griseus
+		Rineloricaria lanceolata
+		Sturisoma robustum
+		Farlowella acus
+		Sturisomatichthys tamanae
+		Lamontichthys filamentosus
+		Ancistrus ranunculus
+		Ancistrus brevipinnis
+		Lasiancistrus mayoloi
+		Dekeyseria scaphirhynchus
+		Lithoxus lithoides
+		Leporacanthicus heterodon
+		Pseudacanthicus pirarara
+		Acanthicus hystrix
+		Baryancistrus demantoides
+		Spectracanthicus zuanoni
+		Parancistrus aurantiacus
+		Baryancistrus chrysolomus
+		Peckoltia braueri
+		Peckoltia sabaji
+		Scobinancistrus aureatus
+		Panaqolus maccus
+		Hypancistrus inspector
+		Hypancistrus debilittera
+		Hypancistrus vandragti
+		Spectracanthicus murinus
+		Isorineloricaria spinosissima
+		Aphanotorulus emarginatus
+		Hypostomus watwata
+		Hypostomus commersoni
+		Hypostomus regani
+		Hypostomus laplatae
+		Hypostomus cochliodon
+		Pterygoplichthys gibbiceps
+		Hypostomus plecostomus
+		Hemiancistrus medians
+		Panaque armbrusteri
+		Pseudancistrus barbatus
+		Chaetostoma dermorhynchus
+		Cordylancistrus setosus
+		Otocinclus vittatus
+		Otothyris sp.
+		Neoplecostomus granosus
+		Pareiorhaphis cameroni
+		Parotocinclus jumbo
+		Rhinotocinclus eppleyi
+		Hisonotus notatus
+		Hypoptopoma psilogaster
+		Niobichthys ferrarisi
+		Oxyropsis carinata
+		Lithogenes villosus
+		Astroblepus mindoensis
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Pseudorinelepis genibarbis,
+		2	Rhinelepis strigosa,
+		3	Harttia loricariformis,
+		4	Cteniloricaria platystoma,
+		5	Loricaria cataphracta,
+		6	Crossoloricaria variegata,
+		7	Planiloricaria cryptodon,
+		8	Pseudohemiodon apithanos,
+		9	Spatuloricaria evansii,
+		10	Loricariichthys maculatus,
+		11	Hemiodontichthys acipenserinus,
+		12	Pseudoloricaria laeviuscula,
+		13	Limatulichthys griseus,
+		14	Rineloricaria lanceolata,
+		15	Sturisoma robustum,
+		16	Farlowella acus,
+		17	Sturisomatichthys tamanae,
+		18	Lamontichthys filamentosus,
+		19	Ancistrus ranunculus,
+		20	Ancistrus brevipinnis,
+		21	Lasiancistrus mayoloi,
+		22	Dekeyseria scaphirhynchus,
+		23	Lithoxus lithoides,
+		24	Leporacanthicus heterodon,
+		25	Pseudacanthicus pirarara,
+		26	Acanthicus hystrix,
+		27	Baryancistrus demantoides,
+		28	Spectracanthicus zuanoni,
+		29	Parancistrus aurantiacus,
+		30	Baryancistrus chrysolomus,
+		31	Peckoltia braueri,
+		32	Peckoltia sabaji,
+		33	Scobinancistrus aureatus,
+		34	Panaqolus maccus,
+		35	Hypancistrus inspector,
+		36	Hypancistrus debilittera,
+		37	Hypancistrus vandragti,
+		38	Spectracanthicus murinus,
+		39	Isorineloricaria spinosissima,
+		40	Aphanotorulus emarginatus,
+		41	Hypostomus watwata,
+		42	Hypostomus commersoni,
+		43	Hypostomus regani,
+		44	Hypostomus laplatae,
+		45	Hypostomus cochliodon,
+		46	Pterygoplichthys gibbiceps,
+		47	Hypostomus plecostomus,
+		48	Hemiancistrus medians,
+		49	Panaque armbrusteri,
+		50	Pseudancistrus barbatus,
+		51	Chaetostoma dermorhynchus,
+		52	Cordylancistrus setosus,
+		53	Otocinclus vittatus,
+		54	Otothyris sp.,
+		55	Neoplecostomus granosus,
+		56	Pareiorhaphis cameroni,
+		57	Parotocinclus jumbo,
+		58	Rhinotocinclus eppleyi,
+		59	Hisonotus notatus,
+		60	Hypoptopoma psilogaster,
+		61	Niobichthys ferrarisi,
+		62	Oxyropsis carinata,
+		63	Lithogenes villosus,
+		64	Astroblepus mindoensis
+	;
+	TREE * UNTITLED = [&R] ((((1:0.042809,2:0.107161)40:0.062658,(((3:0.046462,4:0.0551)87:0.023323,((((((5:0.070919,6:0.046669)42:0.001268,(7:0.029298,8:0.044764)41:0.003909)86:0.016235,9:0.063233)82:0.015586,(10:0.091376,(11:0.131563,(12:0.042624,13:0.053555)62:0.002556)52:0.005187)46:0.016933)39:0.005424,14:0.106865)94:0.047332,((15:0.057301,(16:0.055874,17:0.042651)99:0.008693)99:0.028722,18:0.046503)99:0.025498)84:0.007292)93:0.052379,((((((19:0.033401,20:0.032462)9:0.054483,21:0.056398)97:0.013228,22:0.074655)29:0.007548,((23:0.120164,(((24:0.041985,25:0.047563)86:0.00622,26:0.043263)98:0.016526,(((27:0.038952,((28:0.012459,29:0.011348)96:0.023205,30:0.031495)86:0.013428)53:0.006413,(((((((31:0.023966,32:0.012854)44:0.004617,33:0.024436)6:0.000489,34:0.023709)10:0.003587,((35:1e-06,36:0.000986)68:0.000179,37:0.002765)87:0.017597)71:0.011056,38:0.031178)45:0.005625,(39:0.02918,40:0.040727)33:0.002762)95:0.008651,((41:0.005351,((42:0.014081,(43:0.005257,44:0.007813)1:0.011547)2:0.011615,45:0.008462)0:0.020068)0:0.015838,(46:0.034553,47:0.021922)8:0.006747)95:0.013205)97:0.017836)17:0.000968,(48:0.033553,49:0.046726)49:0.005942)96:0.009901)93:0.009925)52:0.001239,50:0.045333)71:0.004163)20:0.003333,(51:0.075072,52:0.057402)51:0.003795)62:0.024707,((53:0.138108,((54:0.090208,(55:0.041666,56:0.047819)51:0.02176)45:0.005195,(57:0.10667,(58:0.111956,59:0.084594)52:0.007542)64:0.015145)5:0.019423)44:0.004542,(60:0.068602,(61:0.055273,62:0.03574)46:0.011124)52:0.061632)79:0.044464)46:0.01669)46:0.019338)100:0.044193,63:0.120357)36:0.204012,64:0.011011)99;
+END;
