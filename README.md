@@ -25,10 +25,6 @@ File: SnailSeq_Dec2024.fas COI sequences derived from experimental snails, used 
 
 File: Snails3.txt - Data from feeding trials. 
 
-File: top_pharyngeal_jawphy.TPS - Landmark coordinates for the top of the lower pharyngeal jaw.
-
-File: side_pharyngeal_jawphy.TPS - Landmark coordinates for the side of the lower pharyngeal jaw.
-
 File: jawtypeglm.csv - Classifiers for the Generalised Linear Model (GLM).
 
 File: jawtype.csv - Classifiers for the Linear Discriminate Model (LDA) and Principal Component Analyses (PCA). 
@@ -37,7 +33,17 @@ File: IDpharyphy.csv - Classifiers for dietary analysis using ANOVA.
 
 File: diet identification with citations.xlsx - Dietary classifiers including citations from the wider scientific literature.
 
+File: top pharyngeal phylm diet no outgroup.TPS - Landmark coordinates for the top of the lower pharyngeal jaw of those with dietary information.
 
+File: side_pharyngeal_jaw phylm diet no outgroup.TPS - Landmark coordinates for the side of the lower pharyngeal jaw of those with dietary information.
+
+File: top pharyngeal phylm no outgroup.TPS - Landmark coordinates for the top of the lower pharyngeal jaw.
+
+File: side_pharyngeal_jaw phylm no outgroup.TPS - Landmark coordinates for the side of the lower pharyngeal jaw.
+
+File: dentary_front_faceon phy LM no outgroup.TPS - Landmark coordinates for the mandable with the toothcup facing forwards.
+
+File: dentary_side phy LM1 no outgroup.TPS - Landmark coordinates for the side of the mandable.
 
 ***
 
@@ -51,4 +57,4 @@ File: NCBI Supermatrix code - Code to be run in Ubuntu terminal to produce the p
 
 File: SnailExpt.R - Code to analyse results of feeding trial.
 
-File: pharyngeal paper.R - Code for Generalised Linear Model (GLM), diet analyses, Linear Discriminate Analysis (LDA) and Principal Component Analysis (PCA).
+File: pharyngeal paper code 25 November 2025.R - Code for Phylogenetic ANOVA (PGLS), diet analyses, Canological Varient Analysis visualisation (CVA) and diet classifications using Multidimensional Scaling (MDS) plot.
