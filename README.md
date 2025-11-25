@@ -25,11 +25,19 @@ File: SnailSeq_Dec2024.fas COI sequences derived from experimental snails, used 
 
 File: Snails3.txt - Data from feeding trials. 
 
-File: jawtypeglm.csv - Classifiers for the Generalised Linear Model (GLM).
+File: phylogenyLoricariidae2.nex - Phylogeny used for analyses
 
-File: jawtype.csv - Classifiers for the Linear Discriminate Model (LDA) and Principal Component Analyses (PCA). 
+File: IDpharyphy no outgroup.csv - Classifiers for the Phylogenetic ANOVA (PGLS), diet analyses, Canological Varient Analysis visualisation (CVA). 
 
-File: IDpharyphy.csv - Classifiers for dietary analysis using ANOVA.
+File: IDdietfinalcat.csv - Classifiers for dietary analysis using PGLS.
+
+File: IDdietfmds.csv - Classifiers corrected using MDS for dietary analysis using PGLS.
+
+File: IDDetritus.csv - Volumes of all dietary items consumed in the scientific literature of those we defined as a detritivore from the MDS.
+
+File: IDalgae.csv - Volumes of all dietary items consumed in the scientific literature of those we defined as a algivore from the MDS.
+
+File: IDcarnivore.csv - Volumes of all dietary items consumed in the scientific literature of those we defined as a carnivore from the MDS.
 
 File: diet identification with citations.xlsx - Dietary classifiers including citations from the wider scientific literature.
 
