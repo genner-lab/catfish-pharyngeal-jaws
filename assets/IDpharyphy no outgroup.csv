@@ -1,0 +1,64 @@
+name,Genus,Niche,Location,SL,Subfamily,oraljaw,oral jaw 1,pharyngealjaw
+Acanthicus_hystrix,Acanthicus,Unknown,Surface,255,Hypostominae,circular but robust with taller body,Typical,Bladed
+Ancistrus_brevipinnis,Ancistrus,Algivore,Surface,76.78,Hypostominae,circular but robust with taller body,Typical,Bladed
+Ancistrus_ranunulus,Ancistrus,Algivore,Surface,111.4,Hypostominae,elongate tooth cup typical large body,Typical,Bladed
+Aphanotorulus_emarginatus,Aphanotorulus,Detritivore,Surface,135,Hypostominae,elongate tooth cup typical large body,Typical,Bladed
+Baryancistrus_chrysolomus,Baryancistrus,Algivore,Surface,85,Hypostominae,circular but robust with taller body,Typical,Bladed
+Baryancistrus_demantoides,Baryancistrus,Algivore,Surface,81,Hypostominae,circular but robust with taller body,Typical,Bladed
+Chaetostoma_dermorhynchus,Chaetostoma,Algivore,Surface,73.98,Hypostominae,Robust no noticable body,Typical,Bladed
+Cordylancistrus_setosus,Cordylancistrus,Unknown,Surface,96.33,Hypostominae,Robust no noticable body,Typical,Bladed
+Crossoloricaria_variegata,Crossoloricaria,Unknown,Substrate,240,Loricariinae,reduced,reduced,Labroid-like
+Cteniloricaria_platystoma,Cteniloricaria,Unknown,Surface,74.04,Loricariinae,elongate tooth cup typical large body,Typical,Bladed
+Dekeyseria_scaphirhyncha,Dekeyseria,Algivore,Surface,67.91,Hypostominae,elongate tooth cup typical large body,Typical,Bladed
+Farlowella_acus,Farlowella,Algivore,Surface,108.67,Loricariinae,circular but robust with taller body,Typical,Bladed
+Harttia_loricariformis,Harttia,Carnivore,Surface,91,Loricariinae,elongate tooth cup typical large body,Typical,Bladed
+Hemiancistrus_medians,Hemiancistrus,Unknown,Surface,76,Hypostominae,Robust no noticable body,Typical,Bladed
+Hemiodontichthys_acipenserinus,Hemiodontichthys,Unknown,Substrate,81,Loricariinae,reduced,reduced,Elongated
+Hisonotus_notatus,Hisonotus,Algivore,Surface,39,Hypoptopominae,circular but robust with taller body,Typical,Bladed
+Hypancistrus_debilittera,Hypancistrus,Algivore,Surface,30,Hypostominae,elongate and long at toothcup,elongate and long at toothcup,Bladed
+Hypancistrus_inspector,Hypancistrus,Algivore,Surface,71,Hypostominae,circular but robust with taller body,Typical,Bladed
+Hypancistrus_vandragti,Hypancistrus,Unknown,Surface,38.6,Hypostominae,elongate and long at toothcup,elongate and long at toothcup,Bladed
+Hypoptopoma_psilogaster,Hypoptopoma,Algivore,Surface,45.7,Hypoptopominae,circular but robust with taller body,Typical,Bladed
+Hypostomus_cochliodon,Hypostomus,Pseudoxylovore,Surface,88.91,Hypostominae,circular but robust with taller body,Typical,Bladed
+Hypostomus_commersoni,Hypostomus,Algivore,Surface,173,Hypostominae,circular but robust with taller body,Typical,Bladed
+Hypostomus_laplatae,Hypostomus,Detritivore,Surface,350,Hypostominae,elongate tooth cup typical large body,Typical,Bladed
+Hypostomus_plecostomus,Hypostomus,Detritivore,Surface,89.1,Hypostominae,circular but robust with taller body,Typical,Bladed
+Hypostomus_regani,Hypostomus,Detritivore,Surface,193,Hypostominae,elongate tooth cup typical large body,Typical,Bladed
+Hypostomus_watwata,Hypostomus,Detritivore,Surface,150.4,Hypostominae,circular but robust with taller body,Typical,Bladed
+Isorineloricaria_spinosissima,Isorineloricaria,Unknown,Surface,220.5,Hypostominae,circular but robust with taller body,Typical,Bladed
+Lamontichthys_filamentosus,Lamontichthys,Algivore,Surface,195,Loricariinae,elongate tooth cup typical large body,Typical,Bladed
+Lasiancistrus_mayoloi,Lasiancistrus,Algivore,Surface,129,Hypostominae,circular but robust with taller body,Typical,Bladed
+Leporacanthicus_heterodon,Leporacanthicus,Carnivore,Surface,85,Hypostominae,elongate and long at toothcup,elongate and long at toothcup,Comb-shaped
+Limatulichthys_griesus,Limatulichthys,Carnivore,Substrate,117,Loricariinae,reduced,reduced,Elongated
+Lithogenes_villosus,Lithogenes,Unknown,Substrate,33,Lithogeninae,elongate and long at toothcup,elongate and long at toothcup,Bladed
+Lithoxus_lithoides,Lithoxus,Algivore,Surface,43,Hypostominae,elongate and long at toothcup,elongate and long at toothcup,Bladed
+Loricaria_cataphracta,Loricaria,Durophage,Substrate,141,Loricariinae,reduced,reduced,Labroid-like
+Loricariichthys_maculatus,Loricariichthys,Durophage,Substrate,21.3,Loricariinae,elongate tooth cup typical large body,Typical,Elongated
+Neoplecostomus_granosus,Neoplecostomus,Carnivore,Surface,49,Hypoptopominae,circular but robust with taller body,Typical,Elongated
+Niobichthys_ferrarisi,Niobichthys,Unknown,Surface,40,Hypoptopominae,circular but robust with taller body,Typical,Bladed
+Otocinclus_vittatus,Otocinclus,Detritivore,Surface,25.23,Hypoptopominae,circular but robust with taller body,Typical,Bladed
+Otothyris_sp.,Otothyris,Unknown,Surface,23.62,Hypoptopominae,circular but robust with taller body,Typical,Bladed
+Oxyropsis_carniata,Oxyropsis,Unknown,Surface,43.5,Hypoptopominae,circular but robust with taller body,Typical,Bladed
+Panaqolus_maccus,Panaqolus,Pseudoxylovore,Surface,45,Hypostominae,circular but robust with taller body,Typical,Bladed
+Panaque_armbrusteri,Panaque,Pseudoxylovore,Surface,155,Hypostominae,circular but robust with taller body,Typical,Bladed
+Parancistrus_aurantiacus,Parancistrus,Algivore,Surface,88.62,Hypostominae,elongate tooth cup typical large body,Typical,Bladed
+Pareiorhaphis_cameroni,Pareiorhaphis,Omnivore,Surface,131,Hypoptopominae,elongate tooth cup typical large body,Typical,Carp-like
+Parotocinclus_jumbo,Parotocinclus,Unknown,Surface,2.35,Hypoptopominae,circular but robust with taller body,Typical,Bladed
+Peckoltia_braueri,Peckoltia,Detritivore,Surface,87,Hypostominae,circular but robust with taller body,Typical,Bladed
+Peckoltia_sabaji,Peckoltia,Unknown,Surface,157,Hypostominae,elongate tooth cup typical large body,Typical,Bladed
+Planiloricaria_cryptodon,Planiloricaria,Durophage,Substrate,172,Loricariinae,reduced,reduced,Labroid-like
+Pseudacanthicus_pirarara,Pseudacanthicus,Carnivore,Surface,160,Hypostominae,circular but robust with taller body,Typical,Bladed
+Pseudancistrus_barbatus,Pseudancistrus,Unknown,Surface,104,Hypostominae,elongate tooth cup typical large body,Typical,Bladed
+Pseudohemiodon_apithanos,Pseudohemiodon,Durophage,Substrate,166,Loricariinae,reduced,reduced,Labroid-like
+Pseudoloricaria_laeviuscula,Pseudoloricaria,Detritivore,Substrate,216,Loricariinae,reduced,reduced,Elongated
+Pseudorinelepis_genibarbis,Pseudorinelepis,Unknown,Surface,107,Rinelepinae,circular but robust with taller body,Typical,Bladed
+Pterygoplichthys_gibbiceps,Pterygoplichthys,Detritivore,Surface,225,Hypostominae,circular but robust with taller body,Typical,Bladed
+Rhinelepis_strigosa,Rhinelepis,Detritivore,Surface,150,Rinelepinae,elongate tooth cup typical large body,Typical,Bladed
+Rhinotocinclus_eppleyi,Rhinotocinclus,Detritivore,Surface,27,Hypoptopominae,circular but robust with taller body,Typical,Bladed
+Rineloricaria_lanceolata,Rineloricaria,Omnivore,Substrate,94.5,Loricariinae,reduced,reduced,Labroid-like
+Scobiancistrus_auratus,Scobiancistrus,Carnivore,Surface,210,Hypostominae,elongate and long at toothcup,elongate and long at toothcup,Bladed
+Spatuloricaria_evansii,Spatuloricaria,Carnivore,Substrate,128,Loricariinae,elongate and long at toothcup,elongate and long at toothcup,Elongated
+Spectracanthicus_murinus,Spectracanthicus,Unknown,Surface,59,Hypostominae,elongate and long at toothcup,elongate and long at toothcup,Bladed
+Spectracanthicus_zuanoni,Spectracanthicus,Algivore,Surface,88,Hypostominae,circular but robust with taller body,Typical,Bladed
+Sturisoma_robustum,Sturisoma,Algivore,Surface,237,Loricariinae,elongate tooth cup typical large body,Typical,Bladed
+Sturisomatichthys_tamanae,Sturisomatichthys,Unknown,Surface,190,Loricariinae,elongate tooth cup typical large body,Typical,Bladed
