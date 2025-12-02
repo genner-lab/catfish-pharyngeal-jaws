@@ -41,13 +41,9 @@ File: IDcarnivore.csv - Volumes of all dietary items consumed in the scientific 
 
 File: diet identification with citations.xlsx - Dietary classifiers including citations from the wider scientific literature.
 
-File: top pharyngeal phylm diet no outgroup.TPS - Landmark coordinates for the top of the lower pharyngeal jaw of those with dietary information.
+File: top two pharyngeal jaws phy lm diet no outgroup.TPS - Landmark coordinates for the top of the lower pharyngeal jaw of those with dietary information.
 
-File: side_pharyngeal_jaw phylm diet no outgroup.TPS - Landmark coordinates for the side of the lower pharyngeal jaw of those with dietary information.
-
-File: top pharyngeal phylm no outgroup.TPS - Landmark coordinates for the top of the lower pharyngeal jaw.
-
-File: side_pharyngeal_jaw phylm no outgroup.TPS - Landmark coordinates for the side of the lower pharyngeal jaw.
+File: top two pharyngeal jaws phy lm no outgroup.TPS - Landmark coordinates for the top of the lower pharyngeal jaw.
 
 File: dentary_front_faceon phy LM no outgroup.TPS - Landmark coordinates for the mandable with the toothcup facing forwards.
 
