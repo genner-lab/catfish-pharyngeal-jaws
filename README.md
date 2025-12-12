@@ -61,11 +61,11 @@ File: CVA ..., scores from pharyngeal to oral with both jaws.txt - Canological V
 
 ****Morphoj Projects for analyses
 
-File: top pair of pharyngeal jaws oral all species phylo .morphoj - MorphoJ analysis for the comparison of the pharyngeal jaw classifiers to the shape of the top of the lower pharyngeal jaw.
+File: Top pair of pharyngeal jaws oral all species phylo to compare or oral jaw.morphoj - MorphoJ analysis for the comparison of the oral jaw classifiers to the shape of the top of the lower pharyngeal jaw.
 
 File: two pharyngeal jaws diet for pharyngeal paper.morphoj - MorphoJ analsis for the comparison of the dietary guilds to the shape of the top of the lower pharyngeal jaw.
 
-File: newProject top pair of pharyngeal jaws all species phylo classifiers.morphoj - MorphoJ analysis for the comparison of the oral jaw classifiers to the shape of the top of the lower pharyngeal jaw.
+File: Top pair of pharyngeal jaws all species phylo against classifiers.morphoj - MorphoJ analysis for the comparison of the oral jaw classifiers to the shape of the top of the lower pharyngeal jaw.
 
 ***
 
@@ -79,4 +79,4 @@ File: NCBI Supermatrix code - Code to be run in Ubuntu terminal to produce the p
 
 File: SnailExpt.R - Code to analyse results of feeding trial.
 
-File: pharyngeal paper code 25 November 2025.R - Code for Phylogenetic ANOVA (PGLS), diet analyses, Canological Varient Analysis visualisation (CVA) and diet classifications using Multidimensional Scaling (MDS) plot.
+File: pharyngeal paper code 25 November 2025 both.R - Code for Phylogenetic ANOVA (PGLS), diet analyses, Canological Varient Analysis visualisation (CVA) and diet classifications using Multidimensional Scaling (MDS) plot.
