@@ -178,6 +178,30 @@ PlottoppharydietCVA <- ggscatter(toppharycvs, x = "CV1", y = "CV2", color = "Die
   theme(legend.position = "right") 
 PlottoppharydietCVA
 
+######side############################################
+#####pharyngeal jaw#########################################Diet
+pharyngealside <- readland.tps("side_pharyngeal_jaw phylm diet no outgroup.TPS", specID = "ID", negNA = TRUE, readcurves= TRUE)
+pharyside <- gpagen(pharyngealside)
+Lori1 <- gpagen(pharyngealside)
+plot(pharyside)
+phygdf <- geomorph.data.frame(pharyside, categories = categories)
+phyaov <- procD.pgls(phygdf$coords ~ categories, phy = tree) 
+anova(phyaov)   ########            Df     SS      MS     Rsq      F      Z Pr(>F)  
+                       #categories  2 37.002 18.5012 0.54007 24.659 2.5875  0.012 *
+                       #Residuals  42 31.512  0.7503 0.45993                       
+                       #Total      44 68.514                   
+
+sidepharycvs <-read.table("CVA scores side pharyngeal jaw diet.txt",header=TRUE,fill=TRUE,sep="\t",check.names=FALSE)
+
+PlotsidepharydietCVA <- ggscatter(sidepharycvs, x = "CV1", y = "CV2", color = "cat", font.label = c("italic", "black"),
+                                  palette = c('Detritivore' = "blue", 'Algivore' = "limegreen", 'Insectivore' = "orange"),
+                                  ellipse = FALSE, ellipse.type = "convex", ellipse.alpha = 0.08, mean.point = FALSE, star.plot = TRUE, legend.title = "Dietary Niche") +
+  theme_classic() +
+  labs(x ="CV1 (70.92% of variation)", y = "CV2 (29.08% of variation)") +
+  theme(legend.position = "right") 
+
+PlotsidepharydietCVA 
+
 
 #####classifyier reliability
 #######comparing pharyngeal jaw classifiers to pharyngeal jaw shape
@@ -229,4 +253,5 @@ plotsjaws <- ggarrange(plotmds, dietcomponents, PlottoppharydietCVA, Plotpharyto
                        nrow = 2, ncol =2,
                        labels = c("A.", "B.", "C.", "D.", "E.", "F."), align = "hv")
 plotsjaws
+
 
