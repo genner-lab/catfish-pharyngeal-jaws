@@ -12,6 +12,8 @@ Data and code for Bentley et al. "Evolutionary innovation of functional cichlid-
 File: specimens used.xlsx - Database of specimens used with CT parameters.
 ****Phylogeny
 
+File: sequences used.csv - Sequences extracted from the NCBI database and used to produce the phylogeny.
+
 File: Rhinelepinae1.txt - Constraint for the subfamily, Rhinelepinae.
 
 File: partition.txt - Partition document for each gene.
@@ -21,6 +23,8 @@ File: bootstrapped.raxml.support - Phylogeny bootstraps support.
 File: phylogenyLoricariidae2.nex - Phylogeny used for analyses
 
 File: Species.csv - Species list for correcting names.
+
+
 ****Feeding trial analyses
 
 File: SnailSeq_Dec2024.fas COI sequences derived from experimental snails, used for taxonomic identification
