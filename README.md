@@ -2,7 +2,7 @@
 
 Loricariid pharyngeal jaws paper
 
-Data and code for Bentley et al. "Evolutionary innovation of functional fused molariform pharyn-geal jaws in suckermouth catfishes"
+Data and code for Bentley et al. "Evolutionary innovation of functional fused molariform pharyngeal jaws in suckermouth catfishes"
 
 ***
 
@@ -41,7 +41,7 @@ File: diet identification with citations.xlsx - Dietary classifiers including ci
 
 ****Classifiers
 
-File: IDpharyphy no outgroup.csv - Classifiers for the Phylogenetic ANOVA (PGLS), diet analyses, Canological Varient Analysis visualisation (CVA). 
+File: IDpharyphy no outgroup.csv - Classifiers for the Phylogenetic ANOVA (PGLS), diet analyses, Canonical Variant Analysis visualisation (CVA). 
 
 File: IDdietfinalcat.csv - Classifiers for dietary analysis using PGLS.
 
@@ -73,11 +73,11 @@ File: dentary_side phy LM1 no outgroup.TPS - Landmark coordinates for the side o
 
 **** CVA Scores 
 
-File: CVA ..., scores classifiers for pharyngeal 02 12 2025.txt - Canological Varient Analysis (CVA) Scores from a comparison of the pharyngeal jaw classifiers to the shape of the top of the lower pharyngeal jaw.
+File: CVA ..., scores classifiers for pharyngeal 02 12 2025.txt - Canonical Variant Analysis (CVA) Scores from a comparison of the pharyngeal jaw classifiers to the shape of the top of the lower pharyngeal jaw.
 
-File: CVA ..., scores for diet with two jaws.txt - Canological Varient Analysis (CVA) Scores from a comparison of the dietary guilds to the shape of the top of the lower pharyngeal jaw.
+File: CVA ..., scores for diet with two jaws.txt - Canonical Variant Analysis (CVA) Scores from a comparison of the dietary guilds to the shape of the top of the lower pharyngeal jaw.
 
-File: CVA ..., scores from pharyngeal to oral with both jaws.txt - Canological Varient Analysis (CVA) Scores from a comparison of the oral jaw classifiers to the shape of the top of the lower pharyngeal jaw.
+File: CVA ..., scores from pharyngeal to oral with both jaws.txt - Canonical Variant Analysis (CVA) Scores from a comparison of the oral jaw classifiers to the shape of the top of the lower pharyngeal jaw.
 
 
 ****Morphoj Projects for analyses
